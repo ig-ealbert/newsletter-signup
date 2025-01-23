@@ -2,13 +2,13 @@
 
 ## Overview
 
-This is a sample project showing how contacts can be gathered for communication purposes.
+This is a sample project showing how contacts can be gathered for communication purposes. :spiral_notepad:
 
 ## Requirements
 
 1. Get all contacts
 2. Add a new contact, or update an existing contact
-3. Download a CSV of all contacts, sorted by signup date
+3. Download a CSV of all contacts, sorted by signup date :date:
 
 ## Starting Point
 
@@ -16,7 +16,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 I chose to use Next.js because the default `create-react-app`:
 
-1. Was not building. At first it was a dependency conflict, which I resolved. Then it was many missing packages and misconfigurations, which I decided it was not worth it to solve.
+1. Was not building. :angry: At first it was a dependency conflict, which I resolved. Then it was many missing packages and misconfigurations, which I decided it was not worth it to solve.
 2. It does not contain a server by default. Next.js does (pages/api contains the routes).
 
 ## APIs
@@ -40,6 +40,8 @@ Example response body:
 }
 ```
 
+:chicken:
+
 ### createUpdateContact
 
 I decided to combine the use cases for creating a new contact with updating an existing one.
@@ -57,6 +59,8 @@ Example body (type `contactInfo`):
   email: atleastihavechicken@gmail.com,
 }
 ```
+
+:chicken:
 
 ## How to Run
 
