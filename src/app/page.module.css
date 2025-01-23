@@ -48,6 +48,22 @@
   margin-bottom: 8px;
 }
 
+.main td, .main th {
+  margin: 10px;
+  border: solid white 1px;
+  padding: 10px;
+}
+
+.main table {
+  border-collapse: collapse;
+}
+
+.main button {
+  font-size: 1.5em;
+  padding: 5px;
+  background-color: green;
+}
+
 .main code {
   font-family: inherit;
   background: var(--gray-alpha-100);
