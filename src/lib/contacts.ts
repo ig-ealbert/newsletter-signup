@@ -14,6 +14,7 @@ class Contacts {
   private contacts: contactList = {};
 
   createOrUpdate(contact: contactInfo) {
+    contact.email = contact.email.toLowerCase();
     if (contact.email in this.contacts) {
       const info = this.contacts[contact.email];
       info.firstName = contact.firstName || info.firstName;
