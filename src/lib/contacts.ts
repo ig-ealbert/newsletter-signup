@@ -9,7 +9,7 @@ For this example app, we will use a class with a JSON object.
 import { contactInfo } from "@/types/contactInfo";
 import { contactList } from "@/types/contactList";
 
-class Contacts {
+export class Contacts {
   // The list of contacts starts off empty
   private contacts: contactList = {};
 
